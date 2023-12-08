@@ -1,0 +1,58 @@
+.login{
+    background-image: url(./istockphoto-670836552-1024x1024.jpg);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.lcontainor{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+
+}
+
+.takeinput{
+    margin: 9px;
+    padding: 10px 20px;
+}
+
+.btn{
+    background-color: blue;
+    padding: 10px 40px;
+    border: none;
+    border-radius: 20px;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.btn:hover{
+    background-color: aqua;
+    scale: 1;
+    transition: 1s ease-in
+}
+
+.btn:disabled{
+    background-color: blue;
+    cursor: not-allowed;
+}
+
+.btnchange{
+    background-color: blue;
+    padding: 10px 40px;
+    border: none;
+    border-radius: 20px;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+    cursor: pointer;
+
+}

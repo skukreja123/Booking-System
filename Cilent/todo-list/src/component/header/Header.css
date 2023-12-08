@@ -1,0 +1,139 @@
+.header{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    background-color: blueviolet;
+    color: white;
+}
+
+.headercontainor{
+    width: 100%;
+    max-width: 1024px;
+    margin: 20px 0px 100px 0px ;
+}
+
+.listmode{
+    width: 100%;
+    max-width: 1024px;
+    margin: 20px 0px 12px 0px ;
+}
+
+.headerlist{
+    display: flex;
+    gap: 30px;
+    margin-bottom: 50px;
+}
+
+.headeritem{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.headeritem.active{
+    border: 1px solid white ;
+    border-radius: 20px;
+    padding: 5px;
+}
+
+.headerdesc{
+    margin: 20px 0px;
+
+}
+
+.headerbutton{
+    background-color: blue;
+    color: white;
+    font-weight: 400;
+    padding: 10px 10px;
+    border: none;
+    cursor: pointer;
+
+}
+
+.headersearch{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px 0px;
+    border-radius: 10px;
+    height: 30px;
+    background-color: white;
+    border: 3px solid green;
+    position: absolute;
+    bottom: -12px;
+    width: 100%;
+    max-width: 1024px;
+}
+
+.headericon{
+    color: gray;
+}
+
+.headersearchitem{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.headersearchinpt{
+    border: none;
+    outline: none;
+}
+
+.headerseacrhtext{
+    color: lightgray;
+    cursor: pointer;
+}
+
+
+.date{
+    position: absolute;
+    top: 50px;
+    z-index: 2;
+}
+
+
+.options{
+    z-index: 2;
+    position: absolute;
+    background-color: white;
+    top: 50px;
+    color: gray;
+    border-radius: 5px;
+    -webkit-box-shadow: 0px 0px 10px -5px black;
+    box-shadow: 0px 0px 10px -5px black;
+}
+
+.optionItem{
+    display: flex;
+    justify-content: space-between;
+    width: 200px;
+    margin: 10px ;
+
+}
+
+.optioncounter{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    color: black;
+    font-size: 12px;
+}
+
+.optionlimitbutton{
+    width: 30px;
+    height: 30px;
+    border: 1px solid blue;
+    color: blue;
+    cursor: pointer;
+    background-color: white;
+}
+
+.optionlimitbutton:disabled{
+    cursor: not-allowed;
+}
+
+.name{
+    font-weight: bold;
+    font-size: 23px;
+}

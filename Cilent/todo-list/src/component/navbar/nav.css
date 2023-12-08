@@ -1,0 +1,41 @@
+.navbar{
+    display: flex;
+    justify-content: center;
+    height: 50px;
+    background-color:blueviolet;
+}
+
+.navContainor{
+    display: flex;
+    width: 100%;
+    max-width: 1024px;
+    color: white;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo{
+    font-size: 23px;
+    font-weight: bold;
+}
+
+.logo:hover{
+    transition: 1s ease-in-out ;
+    color: orange;
+}
+
+.navbtton{
+    margin-left: 20px;
+    border: none;
+    padding:5px 10px;
+    cursor: pointer;
+    color: blueviolet;
+}
+
+.logout{
+    margin-left: 20px;
+    border: none;
+    padding:5px 10px;
+    cursor: pointer;
+    color: blueviolet;
+}

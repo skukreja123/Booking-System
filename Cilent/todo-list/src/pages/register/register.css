@@ -1,0 +1,49 @@
+.regsiter{
+    background-image: url('https://media.istockphoto.com/id/1127251935/photo/glass-window-with-glowing-crowded-city.jpg?s=1024x1024&w=is&k=20&c=M-BH4-JYWJduwRSF65UgfBEBfKaIAPXSIL0C-ipUi2s=');
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.regcontainor{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+.rinput{
+    color: white;
+    font-size: 20px;
+    background-color: unset;
+    margin: 9px;
+    padding: 10px 20px;
+    border: 4px solid black;
+}
+.regcontainor .rinput::placeholder{
+    color: white;
+    font-size: 20px;
+}
+
+
+.rinput:focus{
+    outline: none;
+    border: 4px solid blue;
+}
+
+.btn{
+    background-color: blue;
+    padding: 10px 40px;
+    border: none;
+    border-radius: 20px;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+
+}
+

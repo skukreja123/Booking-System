@@ -1,0 +1,108 @@
+.searchitem{
+    border: 1px solid green;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.siImg{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.sidesc{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    flex: 2;
+}
+.sitittle{
+    font-size: 20px;
+    color: blue;
+}
+
+.sidistance{
+font-size: 12px;
+}
+
+.sitaxi{
+font-size: 12px;
+background-color: orange;
+color: white;
+width: max-content;
+padding: 3px;
+border-radius: 5px;
+}
+
+.sisubtitle{
+    font-size: 12px;
+    font-family: bold;
+}
+
+.sifeature{
+    font-size: 12px ;
+}
+
+.sicencel{
+    font-size: 12px;
+    color: green;
+    font-weight: bold;
+}
+.sidetails{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.israting{
+    display: flex;
+    justify-content: space-between;
+}
+.israting>span{
+    font-size: 500;
+}
+
+.israting>button{
+    background-color: blue;
+    color: white;
+    padding: 5px;
+    font-weight: bold;
+    border: none;
+}
+
+.isdetailstext{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.isprice{
+    font-size: 24px;
+}
+
+.istaxi{
+    font-size: 13px;
+    color: red;
+}
+
+.sibtn{
+    background-color: blue;
+    color: white;
+    font-weight: bold;
+    padding: 10px 5px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    
+}
+
+.sicencelsubtitle{
+    font-size: 12px;
+}

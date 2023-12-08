@@ -1,0 +1,13 @@
+.homecantainor{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+}
+
+
+.hometitle{
+    width: 1024px;
+    font-size: 20px;
+}
